@@ -1,3 +1,4 @@
+#%%
 import os
 import shutil
 
@@ -15,6 +16,7 @@ extensions = {
     'NodeJs' : ['.msi']
 }
 
+#%%
 for filename in os.listdir(folder_path):
     for category, exts in extensions.items():
         for ext in exts:
